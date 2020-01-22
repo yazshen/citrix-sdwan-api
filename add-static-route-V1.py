@@ -8,6 +8,8 @@ Contact: yazhong.shen@citrix.com
 
 TODO: add-static-route-V1.py <MCN address> <UserName> <UserPassword> <Package Name> <Site Name> <Static Route File Name> <Static Route Cost> <Static Route Gateway>
 
+Requirements: Python 3.7.6 or higher
+
 """
 
 
