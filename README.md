@@ -1,4 +1,5 @@
 # Citrix SD-WAN API Guide
+![Citrix SD-WAN](https://www.citrix.com/content/dam/citrix61/en_us/images/graphics/infographics/sd-wan-diagram.png)
 
 ## Batch import static routes into SD-WAN Site
 https://github.com/yazshen/citrix-sdwan-api/blob/master/add-static-route-V1.py
