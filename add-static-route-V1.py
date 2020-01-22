@@ -2,7 +2,7 @@ import sys, os, ssl, http.client, json
 
 """
 
-Author: Yazhong Shen
+Author: Robbie Shen
 Date: 2020.01.22
 Contact: yazhong.shen@citrix.com
 
