@@ -5,7 +5,7 @@
 https://github.com/yazshen/citrix-sdwan-api/blob/master/add-static-route-V1.py
 
 ### API Version
-Citrix SD-WAN API V1
+Citrix SD-WAN NITRO REST API V1
 
 ### Usage
 add-static-route-V1.py \<MCN address\> \<UserName\> \<UserPassword\> \<Package Name\> \<Site Name\> \<Static Route File Name\> \<Static Route Cost\> \<Static Route Gateway\>
