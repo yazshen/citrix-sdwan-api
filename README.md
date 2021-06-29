@@ -1,7 +1,7 @@
 # Citrix SD-WAN API Guide
 ![Citrix SD-WAN](https://www.citrix.com/content/dam/citrix61/en_us/images/graphics/infographics/sd-wan-diagram.png)
 
-## Batch import static routes into SD-WAN Site
+## 1. Batch import static routes into SD-WAN Site
 https://github.com/yazshen/citrix-sdwan-api/blob/master/add-static-route-V1.py
 
 ### API Version
@@ -16,6 +16,17 @@ add-static-route-V1.py 192.168.100.1 admin password 20200121-yazhongs Shanghai-O
 ### Requirements
 Python 3.7.6 or higher
 
+## 2.Monitor AliCloud Route Table when using Citrix SD-WAN Active-Active scenario
+https://github.com/yazshen/citrix-sdwan-api/blob/master/monitor-sdwan-alicloud.py
+
+### TODO
+Monitor Route Table on AliCloud when using Citrix SD-WAN Active-Active Scenario. If Primary SD-WAN Appliance down, update Next-Hop to Secondary SD-WAN Appliance. 
+
+### Prerequisite
+AccessKey on AliCloud requires "AliyunVPCFullAccess"
+
+### Requirements
+Python 3.6.8 or higher
 
 ## License
 GNU General Public License v3.0
